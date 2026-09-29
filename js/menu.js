@@ -52,6 +52,43 @@ export function iniciarMenu() {
                     : "Abrir menu"
             );
 
+/* =====================================
+   FECHAR MENU COM ESC
+===================================== */
+
+document.addEventListener(
+    "keydown",
+    function (event) {
+
+        if (
+            event.key === "Escape"
+            && menu.classList.contains("ativo")
+        ) {
+
+            menu.classList.remove(
+                "ativo"
+            );
+
+
+            menuToggle.setAttribute(
+                "aria-expanded",
+                "false"
+            );
+
+
+            menuToggle.setAttribute(
+                "aria-label",
+                "Abrir menu"
+            );
+
+
+            menuToggle.focus();
+
+        }
+
+    }
+);
+
         }
     );
 

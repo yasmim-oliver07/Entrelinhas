@@ -63,6 +63,37 @@ export function renderizarRota(
         rota
     );
 
+    app.focus();
+
+    const linksMenu =
+    document.querySelectorAll(
+        "[data-rota]"
+    );
+
+
+linksMenu.forEach(
+    function (link) {
+
+        if (
+            link.dataset.rota === rota
+            && !link.dataset.secao
+        ) {
+
+            link.setAttribute(
+                "aria-current",
+                "page"
+            );
+
+        } else {
+
+            link.removeAttribute(
+                "aria-current"
+            );
+
+        }
+
+    }
+);
 
     if (secao) {
 
