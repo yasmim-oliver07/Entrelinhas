@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Entrelinhas | ONG de Leitura</title>
+
+
+    <!-- CSS DO PROJETO -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+
+    <!-- BIBLIOTECA AOS -->
+
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+    >
+
+</head>
+
+<body>
+
+    <!-- CABEÇALHO FIXO DA SPA -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <a
+                href="#inicio"
+                class="logo"
+                data-rota="inicio"
+            >
+                Entrelinhas
+            </a>
+
+
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="menu-principal"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+
+            <ul
+                class="menu"
+                id="menu-principal"
+            >
+
+                <li>
+                    <a
+                        href="#inicio"
+                        data-rota="inicio"
+                    >
+                        Início
+                    </a>
+                </li>
+
+
+                <li class="dropdown">
+
+                    <a
+                        href="#projetos"
+                        data-rota="projetos"
+                    >
+                        Projetos
+                    </a>
+
+
+                    <ul class="submenu">
+
+                        <li>
+                            <a
+                                href="#projetos"
+                                data-rota="projetos"
+                                data-secao="biblioteca"
+                            >
+                                Biblioteca
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a
+                                href="#projetos"
+                                data-rota="projetos"
+                                data-secao="clube"
+                            >
+                                Clube de Leitura
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a
+                                href="#projetos"
+                                data-rota="projetos"
+                                data-secao="doacao"
+                            >
+                                Doações
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a
+                                href="#projetos"
+                                data-rota="projetos"
+                                data-secao="voluntariado"
+                            >
+                                Voluntariado
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+
+                <li>
+                    <a
+                        href="#cadastro"
+                        data-rota="cadastro"
+                    >
+                        Participe
+                    </a>
+                </li>
+
+
+                <li>
+                    <a
+                        href="#voluntarios"
+                        data-rota="voluntarios"
+                    >
+                        Voluntários
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ÁREA DINÂMICA DA SPA -->
+
+    <main id="app"></main>
+
+
+    <!-- RODAPÉ -->
+
+    <footer>
+
+        <p>
+            &copy; 2026 Entrelinhas -
+            ONG de incentivo à leitura.
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT DA BIBLIOTECA AOS -->
+
+    <script
+        src="https://unpkg.com/aos@2.3.4/dist/aos.js"
+    ></script>
+
+
+    <!-- JAVASCRIPT PRINCIPAL DA SPA -->
+
+    <script
+        type="module"
+        src="js/app.js"
+    ></script>
+
+</body>
+
+</html>
