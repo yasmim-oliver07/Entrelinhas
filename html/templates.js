@@ -58,7 +58,7 @@ export function templateInicio() {
             </p>
 
             <img
-                src="imagens/livros.jpg"
+                src="/imagens/livros.jpg"
                 alt="Livros empilhados representando o incentivo à leitura"
             >
 

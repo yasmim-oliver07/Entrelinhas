@@ -1,0 +1,26 @@
+{
+  "name": "entrelinhas",
+  "version": "1.0.0",
+  "description": "O Entrelinhas é um projeto acadêmico desenvolvido com o objetivo de criar uma aplicação web para uma ONG fictícia voltada ao incentivo à leitura, à doação de livros e ao trabalho voluntário.",
+  "main": "index.js",
+  "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasmim-oliver07/Entrelinhas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yasmim-oliver07/Entrelinhas/issues"
+  },
+  "homepage": "https://github.com/yasmim-oliver07/Entrelinhas#readme",
+  "devDependencies": {
+    "vite": "^8.3.2"
+  }
+}

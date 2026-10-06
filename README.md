@@ -16,6 +16,9 @@ O projeto foi desenvolvido inicialmente como um site estruturado com HTML5 e pos
 - ES6 Modules
 - LocalStorage
 - AOS (Animate On Scroll)
+- Vite
+- Node.js
+- npm
 - Git
 - GitHub
 
@@ -37,7 +40,7 @@ O projeto foi desenvolvido inicialmente como um site estruturado com HTML5 e pos
 - `index.html`: estrutura principal da SPA
 - `css/`: estilos e responsividade
 - `html/`: templates das páginas
-- `imagens/`: recursos visuais
+- `public/`: arquivos estáticos e recursos visuais
 - `js/`: módulos JavaScript da aplicação
 
 ## Acessibilidade
@@ -46,9 +49,35 @@ O projeto utiliza práticas de acessibilidade como HTML semântico, textos alter
 
 As melhorias foram desenvolvidas considerando as diretrizes da WCAG 2.1 nível AA.
 
-## Execução
+## Instalação e execução
 
-Para executar o projeto localmente, abra a pasta no Visual Studio Code e utilize uma ferramenta de servidor local, como o Live Server.
+Para executar o projeto é necessário ter o Node.js instalado.
+
+Após baixar ou clonar o projeto, instale as dependências:
+
+```bash
+npm install
+```
+
+Para iniciar o ambiente de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+Para gerar a versão otimizada de produção:
+
+```bash
+npm run build
+```
+
+Para visualizar localmente a build de produção:
+
+```bash
+npm run preview
+```
+
+A versão preparada para produção é gerada na pasta `dist`.
 
 ## Versionamento
 
